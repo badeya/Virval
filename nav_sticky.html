@@ -1,0 +1,26 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+  <a href="index.php" class="active">La Clinique du Virval<img class= "img_nav" src="oiseauV3.png"></a>
+  <a href="presentation_de_loffre_de_soins.php">Presentation de l'offre de soins</a>
+  <a href="prise_en_charge.php">Prise en charge</a>
+  <a href="le_sejour.php">Le sejour à la clinique</a>
+  <a href="nos_valeurs.php">Nos valeurs</a>
+  <a href="index.php#plus_de_details">Plus de details</a>
+
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+</script>
